@@ -17,7 +17,7 @@ const routerPath=require('./apiOperations')
 app.use('/',routerPath)
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://GOWTHAM:mgowtham@gowtham.cdly00w.mongodb.net/productUser', {
+mongoose.connect('data base crud operation uri', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
