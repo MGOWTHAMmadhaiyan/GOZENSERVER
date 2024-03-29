@@ -9,16 +9,16 @@ function sendEmailNotification() {
     port:587,
     secure: false,
     auth: {
-      user: 'gowthamtanu2000@gmail.com',
-      pass: 'xixf umes cbfj mnjy'
+      user: 'from email id'
+      pass: 'from user google account password'
     }
   })
   // Email message options
   const mailOptions = {
-    from: 'gowthamtanu2000@gmail.com',
-    to: 'gowthamtanu2000@gmail.com',
+    from: 'from email '
+    to: 'to email',
     subject: 'EMAIL SCHEDULE',
-    text: "WELCOME EMAIL SCHEDULE?", 
+    text: "WELCOME EMAIL SCHEDULE", 
     html: "<p>Hello,</p><p>Welcome to Gozen.</p><p>Form submission is completed. Our Team will reach immediatly</p><p>Best regards,<br>GOZEN</p>"
   }
 
