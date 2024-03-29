@@ -18,7 +18,7 @@ let routerPath=require('./route')
 app.use('/api',routerPath)
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://GOWTHAM:mgowtham@gowtham.cdly00w.mongodb.net/productUser', {
+mongoose.connect('register mongodb uri', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
